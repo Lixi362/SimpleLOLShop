@@ -1,0 +1,8 @@
+body { font-family: sans-serif; margin: 0; display: flex; background: #111; color: #eee; }
+header { width: 100%; padding: 1rem; background: #222; text-align: center; }
+main { flex: 3; padding: 1rem; }
+aside#cart { flex: 1; background: #333; padding: 1rem; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px,1fr)); gap:1rem; }
+.product { background: #444; padding:1rem; border-radius:4px; text-align:center; }
+.product img { width:100%; }
+button { margin-top:0.5rem; padding:0.5rem; border:none; background:#28a; color:#fff; cursor:pointer; border-radius:4px; }
